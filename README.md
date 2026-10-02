@@ -31,3 +31,7 @@ Contains over 60 hand-crafted, algorithmic audio digital signal processing modul
 ## Instructions
 
 See [INSTRUCTIONS.md](./INSTRUCTIONS.md) for local web server and Electron desktop startup commands.
+
+## License
+
+This project is licensed under the GNU General Public License v3.0 (GPL-3.0) - see the [LICENSE](./LICENSE) file for details.
