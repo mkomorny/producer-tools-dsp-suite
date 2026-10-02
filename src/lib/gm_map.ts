@@ -1,0 +1,117 @@
+export const GM_MAP: Record<string, string> = {
+  // Pianos & Keys
+  'Grand Piano': 'acoustic_grand_piano',
+  'Bright Piano': 'bright_acoustic_piano',
+  'Electric Grand': 'electric_grand_piano',
+  'Honky-tonk': 'honkytonk_piano',
+  'Electric Piano 1': 'electric_piano_1',
+  'Electric Piano 2': 'electric_piano_2',
+  'Harpsichord': 'harpsichord',
+  'Clavinet': 'clavinet',
+  'Celesta': 'celesta',
+  'Glockenspiel': 'glockenspiel',
+  'Music Box': 'music_box',
+  'Vibraphone': 'vibraphone',
+  'Marimba': 'marimba',
+
+  // Organs
+  'Drawbar Organ': 'drawbar_organ',
+  'Percussive Organ': 'percussive_organ',
+  'Rock Organ': 'rock_organ',
+  'Church Organ': 'church_organ',
+  'Reed Organ': 'reed_organ',
+  'Accordion': 'accordion',
+  'Harmonica': 'harmonica',
+  'Tango Accordion': 'tango_accordion',
+
+  // Guitars
+  'Nylon Guitar': 'acoustic_guitar_nylon',
+  'Steel Guitar': 'acoustic_guitar_steel',
+  'Jazz Guitar': 'electric_guitar_jazz',
+  'Clean Guitar': 'electric_guitar_clean',
+  'Muted Guitar': 'electric_guitar_muted',
+  'Overdriven': 'overdriven_guitar',
+  'Distortion': 'distortion_guitar',
+  'Guitar Harmonics': 'guitar_harmonics',
+
+  // Bass
+  'Acoustic Bass': 'acoustic_bass',
+  'Finger Bass': 'electric_bass_finger',
+  'Pick Bass': 'electric_bass_pick',
+  'Fretless Bass': 'fretless_bass',
+  'Slap Bass 1': 'slap_bass_1',
+  'Slap Bass 2': 'slap_bass_2',
+  'Synth Bass 1': 'synth_bass_1',
+  'Synth Bass 2': 'synth_bass_2',
+
+  // Strings
+  'Violin': 'violin',
+  'Viola': 'viola',
+  'Cello': 'cello',
+  'Contrabass': 'contrabass',
+  'Tremolo Strings': 'tremolo_strings',
+  'Pizzicato': 'pizzicato_strings',
+  'Harp': 'orchestral_harp',
+  'Timpani': 'timpani',
+
+  // Ensembles
+  'String Ensemble 1': 'string_ensemble_1',
+  'String Ensemble 2': 'string_ensemble_2',
+  'Synth Strings 1': 'synth_strings_1',
+  'Synth Strings 2': 'synth_strings_2',
+  'Choir Aahs': 'choir_aahs',
+  'Voice Oohs': 'voice_oohs',
+  'Synth Choir': 'synth_choir',
+  'Orchestra Hit': 'orchestra_hit',
+
+  // Brass
+  'Trumpet': 'trumpet',
+  'Trombone': 'trombone',
+  'Tuba': 'tuba',
+  'Muted Trumpet': 'muted_trumpet',
+  'French Horn': 'french_horn',
+  'Brass Section': 'brass_section',
+  'Synth Brass 1': 'synth_brass_1',
+  'Synth Brass 2': 'synth_brass_2',
+
+  // Reeds & Flutes
+  'Soprano Sax': 'soprano_sax',
+  'Alto Sax': 'alto_sax',
+  'Tenor Sax': 'tenor_sax',
+  'Baritone Sax': 'baritone_sax',
+  'Oboe': 'oboe',
+  'English Horn': 'english_horn',
+  'Bassoon': 'bassoon',
+  'Clarinet': 'clarinet',
+  'Piccolo': 'piccolo',
+  'Flute': 'flute',
+  'Recorder': 'recorder',
+  'Pan Flute': 'pan_flute',
+  'Blown Bottle': 'blown_bottle',
+  'Shakuhachi': 'shakuhachi',
+  'Whistle': 'whistle',
+  'Ocarina': 'ocarina',
+
+  // Ethnic & Percussion
+  'Sitar': 'sitar',
+  'Banjo': 'banjo',
+  'Shamisen': 'shamisen',
+  'Koto': 'koto',
+  'Kalimba': 'kalimba',
+  'Bagpipe': 'bagpipe',
+  'Fiddle': 'fiddle',
+  'Shanai': 'shanai',
+  'Tinkle Bell': 'tinkle_bell',
+  'Agogo': 'agogo',
+  'Steel Drums': 'steel_drums',
+  'Woodblock': 'woodblock',
+  'Taiko Drum': 'taiko_drum',
+  'Melodic Tom': 'melodic_tom',
+  'Synth Drum': 'synth_drum',
+  'Reverse Cymbal': 'reverse_cymbal',
+  
+  // Backward compatibility with previous mapping names
+  'Acoustic Guitar': 'acoustic_guitar_steel',
+  'Electric Guitar': 'electric_guitar_clean',
+  'Organ': 'church_organ'
+};

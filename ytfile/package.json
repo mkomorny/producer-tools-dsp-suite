@@ -1,0 +1,19 @@
+{
+  "name": "ytfile",
+  "version": "1.0.0",
+  "description": "YouTube Downloader (MP3 / MP4)",
+  "type": "module",
+  "bin": {
+    "ytfile": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^11.0.0",
+    "execa": "^8.0.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
